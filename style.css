@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 40px 50px 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.btn {
+    background-color: hsl(322, 100%, 66%);;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    padding: 8px 25px;
+    border-radius:100px ;
+    border: none;
+    outline: none;
+    border: 1px solid transparent;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(192, 100%, 9%);
+}
+.header-about {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-about img {
+    width: 55%;
+}
+
+.header-text {
+    width: 40%;
+    margin-top: 180px;
+    align-items: center;
+}
+
+.header-text h2 {
+    width: 80%;
+    font-size: 40px;
+    color: hsl(192, 100%, 9%);
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+
+.header-text p {
+    font-size: 20px;
+    color: hsl(192, 100%, 9%);
+    padding-bottom: 30px;
+}
+
+.btn-one {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    outline: none;
+    border: 1px solid transparent;
+    color: white;
+    padding: 15px 40px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-one:hover {
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+
+.body {
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    height: 210vh;
+    padding-top: 80px;
+}
+
+.body-second {
+    width: 80%;
+    padding-top: 50px;
+}
+
+.container,
+.container-reverse {
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    margin-bottom: 57px;
+}
+
+.container img,
+.container-reverse img {
+    width: 30%;
+    margin: auto;
+}
+
+.container-content {
+    width: 50%;
+    margin: auto;
+}
+
+.container-content h3 {
+    font-size: 30px;
+    color: hsl(192, 100%, 9%);
+    padding-bottom: 20px;
+}
+
+.container-content p {
+    font-size: 20px;
+    color: hsl(192, 100%, 9%);
+    width: 70%;
+}
+
+/* block */
+.community {
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    margin: 13vh auto;
+    background-color: white;
+}
+
+.community-text {
+    text-align: center;
+}
+
+.community-text h2 {
+    color: hsl(192, 100%, 9%);
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.btn-two {
+    padding: 20px 70px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s;
+    font-size: 16px;
+}
+
+.btn-two:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+/* footer */
+footer {
+    background-color: hsl(192, 100%, 9%);
+    height: 60vh;
+    width: 100%;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30vh;
+    gap: 110px;
+    padding: auto;
+    text-align: center;
+}
+.footer-location{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    line-height: 23px;
+}
+.footer-locate , .footer-email{
+    display: flex;
+    gap: 25px;
+}
+.footer-locate{
+    padding: 23px 0;
+}
+.footer-location img{
+    width: 5%;
+    height: 3vh;
+}
+.footer-email p , .footer-location p , .footer-locate p{
+    color: white;
+}
+.footer-address {
+    width: 28%;
+    text-align: left;
+}
+.address-main{
+    display: flex;
+}
+
+.footer-contact {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contact ul li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 17px;
+}
+
+.footer-contact ul li a:hover {
+    border-bottom-color: white;
+}
+.location-main{
+    background-color: hsl(192, 100%, 9%);
+}
+
+.footer-contact ul li a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.address-note {
+    color: white;
+    float: right;
+    width: 73%;
+    padding-bottom: 25px;
+    padding-left: 21px;
+}
+
+
+
+.location {
+    margin-bottom: 60px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-main p {
+    color: white;
+    user-select: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.location i:hover {
+    color: hsl(322, 100%, 66%);
+    background-color: transparent;
+    border: 1px solid hsl(322, 100%, 66%);
+}
+
+.logo-one {
+    width: 57%;
+    margin-bottom: 27px;
+}
+
+.main-logo {
+    width: 100%;
+}
+
+
+@media screen and (max-width:884px) {
+    header {
+        padding: 30px 40px 0;
+        height: 100vh;
+    }
+    .header-about{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin:0 ;
+    }
+
+    .header-text {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .header-about img {
+        width: 100%;
+        margin-top: 41px;
+    }
+
+    .header-text h2 {
+        font-size: 37px;
+        width: 100%;
+    }
+
+    .header-text p {
+        font-size: 25px;
+    }
+    .btn-one{
+        padding: 25px 91px;
+        font-size: 25px;
+    }
+
+    .location-main p {
+        font-size: 14px;
+    }
+
+    .logo-one {
+        width: 71%;
+    }
+
+    .community {
+        width: 89%;
+        height: 22vh;
+    }
+    footer{
+        height: 50vh;
+    }
+    .footer-content {
+        gap: 67px;
+    }
+
+    .footer-contact {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        padding: 31px 0px;
+    }
+
+    header {
+        height:120vh;
+    }
+
+    .header-text {
+        width: 100%;
+    }
+    .header-about{
+        flex-direction: column;
+    }
+   .header-text h2{
+        font-size: 33px;
+   }
+    .header-about img {
+        width: 100%;
+    }
+
+    .container img,
+    .container-reverse img {
+        height: 35vh;
+        width: 37%;
+    }
+
+    .container,
+    .container-reverse {
+        margin-bottom: 77px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .body-second {
+        width: 85%;
+    }
+    
+
+@media screen and (max-width:578px) {
+
+    .logo {
+        width: 47%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    header {
+        padding: 50px 20px 0px;
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 157vh;
+    }
+
+    .header-about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-about img {
+        width: 100%;
+        margin-top: 51px;
+    }
+
+    .header-text {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .header-text h2 {
+        font-size: 31px;
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .header-text p {
+        font-size: 27px;
+        margin-top: 21px;
+        padding-bottom: 37px;
+    }
+
+    .btn-one {
+        padding: 21px 87px;
+        font-size: 14px;
+        margin-bottom: 31px;
+    }
+
+    .body {
+        height: 277vh;
+    }
+
+    .container,
+    .container-reverse {
+        flex-direction: column;
+        height: 72vh;
+        text-align: center;
+        width: 100%;
+    }
+
+    .body-second {
+        width: 92%;
+    }
+
+    .container img,
+    .container-reverse img {
+        width: 90%;
+        height: 30vh;
+    }
+
+    .container-content {
+        width: 77%;
+    }
+
+    .container-content h3 {
+        font-size: 26px;
+    }
+
+    .container-content p {
+        width: 100%;
+        font-size: 21px;
+    }
+
+    .container-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .community {
+        width: 97%;
+        height: 31vh;
+    }
+
+    .community-text h2 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    footer {
+        height: 110vh;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .body{
+        height: 294vh;
+    }
+
+    .footer-content {
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 0px;
+        text-align: start;
+        margin-top: 51px;
+    }
+
+    .footer-address , .footer-contact , .location-main {
+        width: 80%;
+    }
+    .footer-contact ul li{
+        padding-bottom:17px ;
+    }
+}
+}
